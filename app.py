@@ -545,4 +545,5 @@ def getmandata():
         return jsonify({'status':404,'message':'Cannot talk to database'})
 
 if __name__=="__main__":
-    app.run(debug=True, host='localhost', port=5)
+    app.run(debug=True)
+    #, host='localhost', port=5)
