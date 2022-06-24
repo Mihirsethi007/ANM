@@ -31,10 +31,10 @@ app = Flask(__name__,template_folder='templates', static_folder='static')
 
 
 app.config['SECRET_KEY']="sshhh"
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'mihirbhai'
+app.config['MYSQL_HOST'] = 'us-cdbr-east-05.cleardb.net'
+app.config['MYSQL_USER'] = 'ba5f66013cf0e7'
+app.config['MYSQL_PASSWORD'] = 'ab61128c'
+app.config['MYSQL_DB'] = 'heroku_0896b250d7433da'
 app.config['UPLOAD_PATH'] = 'upload'
 app.config['UPLOAD_EXTENSIONS'] = ['.pdf',',jpeg']
 app.config['MAX_CONTENT_LENGTH'] = 2048 * 2048
